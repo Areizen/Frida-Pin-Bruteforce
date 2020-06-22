@@ -6,4 +6,4 @@ This script bruteforce Android pin code using Frida to automate it and bypass th
 
 ## Usage
 
-`python crack_pin.py`
+`python crack_pin.py` then type any random pin ( needed to launch the bruteforce process )
