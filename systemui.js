@@ -34,7 +34,7 @@ Java.perform(function(){
             var result = this.checkPassword(pad(pin++,pin_len), userId, callback);
             
             if(result){
-                console.log("Pin found : " + (pin-1));
+                console.log("Pin found : " + pad((pin-1), pin_len));
                 break;
             }
         }
